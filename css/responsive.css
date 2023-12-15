@@ -1,0 +1,35 @@
+@media (max-width:768px) {
+    .top {
+        display: none;
+    }
+
+    .navbar_box {
+        margin: 20px 0px;
+    }
+
+    .navbar_menu {
+        display: none;
+    }
+
+    .navbar_registration_btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .section_title {
+        text-align: center;
+        padding: 0;
+    }
+
+    .section_item {
+        margin: 20px 0px;
+    }
+
+    .card_main_inline_box_item {
+        display: block;
+    }
+    
+    .footer_box {
+        padding: 20px;
+    }
+}
