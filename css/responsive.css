@@ -1,4 +1,4 @@
-@media (max-width:768px) {
+@media (max-width:767px) {
     .top {
         display: none;
     }
@@ -25,11 +25,66 @@
         margin: 20px 0px;
     }
 
+    .card {
+        padding-bottom: 150px;
+    }
+
     .card_main_inline_box_item {
         display: block;
     }
     
     .footer_box {
         padding: 20px;
+    }
+
+    .footer_contact {
+        display: block;
+        position: relative;
+    }
+}
+
+@media (min-width:768px) and (max-width:1000px) {
+    .top {
+        display: none;
+    }
+
+    .navbar_box {
+        margin: 20px 0px;
+    }
+
+    .navbar_menu {
+        display: none;
+    }
+
+    .navbar_registration_btn {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
+
+    .section_title {
+        text-align: center;
+        padding: 0;
+    }
+
+    .section_item {
+        margin: 20px 0px;
+        justify-content: center;
+    }
+
+    .card {
+        padding-bottom: 150px;
+    }
+
+    .card_main_inline_box_item {
+        display: block;
+    }
+    
+    .footer_box {
+        padding: 20px;
+    }
+
+    .footer_contact {
+        display: block;
+        position: relative;
     }
 }
